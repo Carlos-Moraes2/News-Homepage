@@ -1,28 +1,26 @@
-body, ul, li, p {
+@import url('https://fonts.googleapis.com/css2?family= Inter: wght @400;700;800 & display=swap');
+
+* {
     margin: 0px;
     padding: 0px;
-    list-style: none;
-    font-size: 1.2rem;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
-a {
-    text-decoration: none;
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 15px;
 }
 
 .header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    margin: 50px;
-}
-
-
-.menu {
-    display: flex;
-}
-
-.menu li {
-    margin-left: 20px;
 }
