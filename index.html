@@ -9,16 +9,16 @@
 
   <style>
     .attribution {
-      font-size: 11px;
+      font-size: 14px;
       text-align: center;
+      margin-top: 2rem;
     }
 
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
   </style>
-</head>
-
+  </head>
 <body>
 
   <header class="header">
@@ -27,15 +27,25 @@
     </div>
 
     <nav>
-      <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">New</a></li>
-        <li><a href="#">Popular</a></li>
-        <li><a href="#">Categories</a></li>
+      <button id="menu-close">
+        <img src="./assets/images/icon-menu-close.svg" alt="">
+      </button>
+     <ul>
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
         </li>
       </ul>
     </nav>
-  </header>
+
+    <div class="menu-button">
+      <button id="menu-button">
+          <img src="./assets/images/icon-menu.svg" alt="">
+      </button>
+     </div>
+    <header>
 
   <section class="showcase">
     <div>
@@ -53,7 +63,7 @@
           But is it really fulfilling its promise?</p>
 
         <button>RED MORE</button>
-
+        </div>
       </article>
     </div>
 
@@ -93,7 +103,7 @@
       <div>
         <span>02</span>
         <h4>Top 10 Laptops of 2022</h4>
-        <p>Our best picks for various needs and budgets.</h4>
+        <p>Our best picks for various needs and budgets.</p>
       </div>
     </article>
 
@@ -107,10 +117,11 @@
     </article>
   </div>
 
-  <footer>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Carlos Moraes</a>.
   </footer>
-</body>
 
+  <script src="index.js"></script>
+</body>
 </html>
