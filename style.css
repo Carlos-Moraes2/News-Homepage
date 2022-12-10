@@ -16,9 +16,8 @@ ul {
   list-style-type: none;
 }
 
-p {
-  line-height: 1.8;
-  color: hsl(236, 13%, 42%);
+p {line-height: 1.8;
+color: hsl(236, 13%, 42%);
 }
 
 html {
@@ -49,7 +48,7 @@ body {
   cursor: pointer;
 }
 
-.header nav {
+.header nav{
   opacity: 0;
   z-index: -999;
   transition: all 0.3s ease-in-out;
@@ -90,6 +89,7 @@ body {
   cursor: pointer;
 }
 
+/*Logo W */
 .showcase {
   padding: 1.25rem;
   padding-top: 0;
@@ -218,7 +218,6 @@ body {
     display: none;
   }
 
-  
   .header nav ul {
     position: relative;
     top: 0;
@@ -236,14 +235,29 @@ body {
   .header .menu-button button {
     display: none;
   }
-
+ 
   .showcase {
     display: flex;
     gap: 2rem;
   }
-
+  
   .showcase h1 {
     font-size: 3rem;
   }
 
-  
+  .showcase > div:first-child article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    place-items: center;
+    margin-top: 2rem;
+  }
+
+  .showcase > div:last-child {
+    margin-top: 0;
+  }
+
+.cards {
+  grid-template-columns: repeat(3, 1fr);
+  }
+}
