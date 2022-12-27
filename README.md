@@ -1,4 +1,4 @@
-# Frontend Mentor - News homepage
+<h1 align="center">Frontend Mentor-News homepage</h1>
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
